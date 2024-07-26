@@ -1,0 +1,17 @@
+[tool.isort]
+profile = "hug"
+src_paths = ["isort", "tests"]
+
+[tool.yapfignore]
+ignore_patterns = [
+  "*.pyc",
+  "__pycache__",
+  "venv/",
+  "get-pip.py",
+]
+
+[tool.yapf]
+based_on_style = 'yapf'
+column_limit = 120
+spaces_before_comment = 2
+continuation_indent_width = 4

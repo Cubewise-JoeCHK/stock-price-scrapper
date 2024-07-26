@@ -1,0 +1,4 @@
+TM1py[pandas]
+isort
+yapf
+python-dotenv
